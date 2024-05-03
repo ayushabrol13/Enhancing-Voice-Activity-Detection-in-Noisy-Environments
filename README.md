@@ -42,8 +42,8 @@ The dataset used is Musan Dataset for noise.
 
 [Dataset Link](http://www.openslr.org/17/)
 
-We are using the noise portion of the corpus.
-It contains 932 recordings with a total time of 6 hours and 7 minutes.
+We are using the noise/sound-bible portion and speech/librivox portion of the corpus.
+The noise/sound-bible portion contains 88 recordings.
 It captures a wide variety of technical and non-technical noises that
 cannot be considered speech or music. Some recordings feature an ambient
 environment, e.g., walking through a city. The ambient sounds usually do
@@ -51,6 +51,8 @@ not feature any intelligible speech. Technical sounds include DTMF tones,
 various cellphone noises (such as button presses or vibration),
 dialtones and more. Non-technical sounds include thunder, lighting,
 clapping, car horns, animal sounds, and more.
+
+The speech/librivox portion contains 175 recordings.
 
 ### Running the VAD
 
